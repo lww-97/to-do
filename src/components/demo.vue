@@ -66,7 +66,7 @@ export default {
       this.list.push({
         id: Math.random(),
         text: this.input,
-        checked: "false",
+        checked: false,
         isText: true,
       });
       this.input = "";
@@ -123,7 +123,6 @@ li {
     display: flex;
     justify-content: left;
     align-items: center;
-
     .textWidth {
       margin-left: 10px;
     }
